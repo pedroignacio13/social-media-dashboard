@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Social Media Dashboard]</title>
+  <link rel="stylesheet" href="/code/styles/style.css">
+  <link rel="stylesheet" href="/code/styles/header.css">
+  <link rel="stylesheet" href="/code/styles/main.css">
+  <style>
+    .attribution { 
+      height: 40px;
+      font-size: 11px; 
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+    body{
+      min-width: 350px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+
+    <div id="title-count">
+
+      <h1 id="header-title">Social Media Dashboard</h1>
+
+      <h5>Total Followers: 23,004</h5>
+
+    </div>
+
+    <div id="dark-mode">
+
+      <h5>Dark Mode</h5>
+    
+      <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+      </label>
+
+    </div>
+    
+  </header>
+  
+  <main>
+
+    <div id="cards-gerais">
+      
+      <div class="social-card face social-media">
+
+        <div class="rede-id">
+          <img src="/resources/images/icon-facebook.svg" alt="">
+          <h6 class="user">@nathanf</h6>
+        </div>
+
+        <h1 class="numero-seguidores">1987</h1>
+
+        <h5 class="followers">Followers</h5>
+
+        <h6 class="new-followers"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>12 Today</h6>
+
+      </div>
+
+      <div class="social-card twit social-media">
+        
+        <div class="rede-id">
+          <img src="/resources/images/icon-twitter.svg" alt="">
+          <h6 class="user">@nathanf</h6>
+        </div>
+
+        <h1 class="numero-seguidores">1044</h1>
+
+        <h5 class="followers">Followers</h5>
+
+        <h6 class="new-followers"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>99 Today</h6>
+        
+      </div>
+
+      <div class="social-card insta social-media">
+        <span class="border-top"></span>
+        <div class="rede-id">
+          <img src="/resources/images/icon-instagram.svg" alt="">
+          <h6 class="user">@realnathanf</h6>
+        </div>
+
+        <h1 class="numero-seguidores">11k</h1>
+
+        <h5 class="followers">Followers</h5>
+
+        <h6 class="new-followers"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>1099 Today</h6>
+        
+      </div>
+
+      <div class="social-card you social-media">
+        
+        <div class="rede-id">
+          <img src="/resources/images/icon-youtube.svg" alt="">
+          <h6 class="user">Nathan F.</h6>
+        </div>
+
+        <h1 class="numero-seguidores">8239</h1>
+
+        <h5 class="followers">Subscribers</h5>
+
+        <h6 class="new-followers"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>144 Today</h6>
+        
+      </div>
+      
+    </div>
+
+    <div id="overview">
+
+      <h1>Overview - Today</h1>
+
+      <div class="overview-card first">
+
+        <div class="left">
+          <h3 class="topic">Page Views</h3>
+          <h5 class="topic-value">87</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-facebook.svg" alt="">
+          <h6 class="new-followers" style="color: hsl(163, 72%, 41%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+            3%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card">
+
+        <div class="left">
+          <h3 class="topic">Likes</h3>
+          <h5 class="topic-value">52</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-facebook.svg" alt="">
+          <h6 class="new-followers" style="color:  hsl(348, 97%, 39%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+            2%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card">
+
+        <div class="left">
+          <h3 class="topic">Likes</h3>
+          <h5 class="topic-value">5462</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-instagram.svg" alt="">
+          <h6 class="new-followers" style="color: hsl(163, 72%, 41%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+            2257%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card">
+
+        <div class="left">
+          <h3 class="topic">Profile Views</h3>
+          <h5 class="topic-value">52k</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-instagram.svg" alt="">
+          <h6 class="new-followers" style="color: hsl(163, 72%, 41%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+            1375%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card">
+
+        <div class="left">
+          <h3 class="topic">Retweets</h3>
+          <h5 class="topic-value">117</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-twitter.svg" alt="">
+          <h6 class="new-followers" style="color: hsl(163, 72%, 41%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+            303%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card">
+
+        <div class="left">
+          <h3 class="topic">Likes</h3>
+          <h5 class="topic-value">507</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-twitter.svg" alt="">
+          <h6 class="new-followers" style="color: hsl(163, 72%, 41%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+            553%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card over-you">
+
+        <div class="left">
+          <h3 class="topic">Likes</h3>
+          <h5 class="topic-value">107</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-youtube.svg" alt="">
+          <h6 class="new-followers" style="color:  hsl(348, 97%, 39%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+            19%
+          </h6>
+
+        </div>
+        
+      </div>
+
+      <div class="overview-card last over-you">
+
+        <div class="left">
+          <h3 class="topic">Total Views</h3>
+          <h5 class="topic-value">1407</h5>
+        </div>
+
+        <div class="right">
+          <img src="/resources/images/icon-youtube.svg" alt="">
+          <h6 class="new-followers" style="color:  hsl(348, 97%, 39%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+            12%
+          </h6>
+
+        </div>
+        
+      </div>
+
+    </div>
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pedro Ignácio</a>.
+  </div>
+  <script src="/code/app.js"></script>
+</body>
+</html>

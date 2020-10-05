@@ -1,0 +1,283 @@
+main{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 24px 43px;
+    margin-top: -44px;
+
+    position: relative;
+
+    transition: background-color 0.5s;
+}
+
+
+/* CARDS DE FOLLOWERS */
+/* container geral dos cards */
+#cards-gerais{
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 51px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* cada card */
+.social-card{
+    box-sizing: border-box;
+    width: 100%;
+    height: 212px;
+    padding: 0px 0px 0px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: hsl(227, 47%, 96%);
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    position: relative;
+    z-index: 2;
+
+    /* transition: background-color 0.5s; */
+}
+.social-card:hover{
+    background-color:  hsl(223, 15%, 91%);
+}
+.rede-id{
+    display: flex;
+    align-items: center;
+
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+.rede-id img{
+    margin-right: 9px;
+}
+.rede-id h6{
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+}
+.social-card h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.social-card .followers{
+    margin-bottom: 25px;
+    color: hsl(228, 12%, 44%);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.social-card .new-followers{
+    color: hsl(163, 72%, 41%);
+    font-weight: 700;
+}
+.social-card .new-followers svg{
+    margin-bottom: 1.5px;
+    margin-right: 4px;
+}
+.face{border-top: 4px solid hsl(208, 92%, 53%);}
+.twit{
+    border-top: 4px solid hsl(203, 89%, 53%);
+    margin: 25px 0px 12.5px;
+}
+.insta{
+    position: relative;
+    margin: 12.5px 0px 25px;
+}
+.insta .border-top{
+    width: 100%;
+    height: 4px;
+    position: absolute;
+
+    
+    background-image: var(--instagram);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.you{border-top: 4px solid hsl(348, 97%, 39%);}
+.you .new-followers{color: hsl(348, 97%, 39%);}
+
+/* cards de likes/profile views/retweets/total views */
+#overview{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 46px;
+}
+#overview h1{
+    width: 100%;
+    color: hsl(228, 12%, 44%);
+    font-size: 24px;
+    margin-bottom: 33px;
+
+    text-align: left;
+}
+.overview-card{
+    box-sizing: border-box;
+    width: 100%;
+    height: 125px;
+    margin: 8px 0px;
+    padding: 25px 31px 27px 25px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: hsl(225, 100%, 98%);
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    /* transition: background-color 0.5s; */
+}
+.overview-card:hover{
+    background-color:  hsl(223, 15%, 91%);
+}
+.first{
+    margin-top: 0px !important;
+}
+.last{
+    margin-bottom: 0px !important;
+}
+
+.left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.left .topic{
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+    font-size: 12px;
+}
+.left .topic-value{
+    font-size: 30px;
+}
+.right img{
+    width: 19px;
+    height: 19px;
+}
+.right h6 svg{
+    margin-bottom: 2px;
+    margin-right: 3px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 556px) and (max-width: 785px){
+    main{
+        padding: 0px 12px;
+        margin-top: -80px;
+    }
+
+    /* CARDS DE FOLLOWERS */
+    #cards-gerais{
+        justify-content: space-around;
+    }
+    .social-card{
+        width: 45.683vw;
+        height: 215px;
+        
+        padding: 0px 0px 0px 0px;
+    }
+    .twit, .insta{
+        margin-top: 0px !important;
+    }
+
+    /* OVERVIEW-CARDS */
+    #overview{
+        justify-content: space-between;
+    }
+    .overview-card{
+        width: 49%;
+        margin: 8px 0px !important;
+    }
+}
+@media screen and (min-width: 786px) and (max-width: 1009px){
+    main{
+        padding: 10px;
+        margin-top: -80px;
+    }
+
+    /* CARDS DE FOLLOWERS */
+    #cards-gerais{
+        justify-content: center;
+    }
+    .social-card{
+        width: 30.534vw;
+    }
+    .twit, .insta{
+        margin-top: 0px !important;
+        margin-bottom: 0;
+    }
+    .twit{
+        margin: 0px 15px 15px;
+    }
+
+    /* OVERVIEW CARDS */
+    #overview{
+        justify-content: space-between;
+    }
+    .overview-card{
+        width: 32%;
+        margin: 8px 0px !important;
+    }
+    .over-you{
+        width: 49%;
+    }
+}
+@media(min-width: 1010px){
+    main{
+        margin-top: -80px;
+        /* margin-top: 0px; */
+    }
+    #cards-gerais{
+        margin: 0 auto;
+        width: 
+         calc(20vw*4 + 90px);
+        justify-content: space-between;
+
+        margin-bottom: 51px !important;
+    }
+    .social-card{
+        width: 20vw;
+    }
+    .twit, .insta{
+        margin-top: 0px !important;
+        margin-bottom: 0;
+    }
+    /* OVERVIEW CARDS */
+    #overview{
+        width: calc(20vw*4 + 90px);
+        
+        margin: 0 auto;
+
+        justify-content: space-between;
+    }
+    .overview-card{
+        width: calc(100% / 4 - 15px);
+        
+        margin: 8px 0px 12px !important;
+    }
+}
+
+/* DARK MODE */
+.dark-main{
+    background-color: hsl(230, 17%, 14%);
+}
+.dark-card{
+    background-color: hsl(228, 28%, 20%);
+}
