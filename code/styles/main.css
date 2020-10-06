@@ -45,9 +45,9 @@ main{
 
     /* transition: background-color 0.5s; */
 }
-.social-card:hover{
+/* .social-card:hover{
     background-color:  hsl(223, 15%, 91%);
-}
+} */
 .rede-id{
     display: flex;
     align-items: center;
@@ -136,9 +136,9 @@ main{
 
     /* transition: background-color 0.5s; */
 }
-.overview-card:hover{
+/* .overview-card:hover{
     background-color:  hsl(223, 15%, 91%);
-}
+} */
 .first{
     margin-top: 0px !important;
 }
