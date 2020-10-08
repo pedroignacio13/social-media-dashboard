@@ -6,4 +6,5 @@ O projeto conta com adaptação para diferentes tamanhos de telas, sendo o míni
 As funcionalidades do botão de Dark Mode foram completamente implementadas com JavaScript.
 Fique a vontade para utilizar o código :)
 
-![Optional Text](../master/project-images/Desktop-Dark-Mode.png)
+Desktop
+(../master/project-images/Desktop-Dark-Mode.PNG)
