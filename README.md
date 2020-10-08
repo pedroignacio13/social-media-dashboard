@@ -17,7 +17,7 @@ O layout ficará desse jeito quando a tela do usuário for igual ou maior que 10
 
 Os layouts mobile vão até 599px. O tamanho mínimo da tela é de 375px.
 
-<img src="../master/project-images/Mobile-Light-Mode.png" alt="Mobile Light Mode"><img src="../master/project-images/Mobile-Dark-Mode.png" alt="Mobile Dark Mode" style="float: right; clear: both;">
+<img src="../master/project-images/Mobile-Light-Mode.png" alt="Mobile Light Mode"><img src="../master/project-images/Mobile-Dark-Mode.png" alt="Mobile Dark Mode">
 
 # Medium Width
 
