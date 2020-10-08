@@ -6,4 +6,4 @@ O projeto conta com adaptação para diferentes tamanhos de telas, sendo o míni
 As funcionalidades do botão de Dark Mode foram completamente implementadas com JavaScript.
 Fique a vontade para utilizar o código :)
 
-(https://github.com/pedroignacio13/social-media-dashboard/blob/master/Social%20Media%20Dashboard/Desktop-Dark-Mode.PNG?raw=true)
+![Optional Text](../master/Social Media Dashboard/Desktop-Dark-Mode.png)
