@@ -11,5 +11,7 @@ Fique a vontade para utilizar o código :)
 ![Desktop Dark Mode](../master/project-images/Desktop-Dark-Mode.PNG)
 </div>
 
+<div align="center">
 ## Desktop Light Mode
 ![Desktop Light Mode](../master/project-images/Desktop-Light-Mode.PNG)
+</div>
