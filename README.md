@@ -11,7 +11,7 @@ Fique a vontade para utilizar o código :)
 
 O layout ficará desse jeito quando a tela do usuário for igual ou maior que 1010px.
 
-<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode" width="50%"><img src="../master/project-images/Desktop-Light-Mode.PNG" alt="Desktop White Mode" width="50%">
+<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode"><img src="../master/project-images/Desktop-Light-Mode.PNG" alt="Desktop White Mode">
 
 ## Mobile
 
