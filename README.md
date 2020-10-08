@@ -7,4 +7,4 @@ As funcionalidades do botão de Dark Mode foram completamente implementadas com 
 Fique a vontade para utilizar o código :)
 
 Desktop
-![Desktop](../master/project-images/Desktop-Dark-Mode.PNG)
+![Desktop](../master/project-images/Desktop-Dark-Mode.PNG)![](../master/project-images/Desktop-Light-Mode.PNG)
