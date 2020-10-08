@@ -8,10 +8,5 @@ Fique a vontade para utilizar o código :)
 
 
 ## Desktop
-<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode" width="600">
+<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode" width="400"><img src="../master/project-images/Desktop-Light-Mode.PNG" alt="Desktop White Mode" width="400">
 
-
-<div align="center">
-## Desktop Light Mode
-![Desktop Light Mode](../master/project-images/Desktop-Light-Mode.PNG)
-</div>
