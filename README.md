@@ -6,4 +6,15 @@ O projeto conta com adaptação para diferentes tamanhos de telas, sendo o míni
 As funcionalidades do botão de Dark Mode foram completamente implementadas com JavaScript.
 Fique a vontade para utilizar o código :)
 
-![Optional Text](../master/Social Media Dashboard/Desktop-Dark-Mode.png)
+
+## Desktop
+
+O layout ficará desse jeito quando a tela do usuário for igual ou maior que 1010px.
+
+<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode" width="50%"><img src="../master/project-images/Desktop-Light-Mode.PNG" alt="Desktop White Mode" width="50%">
+
+# Mobile
+
+Os layouts mobile vão até 599px. O tamanho mínimo da tela é de 375px.
+
+<img src="../master/project-images/Mobile-Light-Mode.png" alt="Mobile Light Mode"><img src="../master/project-images/Mobile-Dark-Mode.png" alt="Mobile Dark Mode">
