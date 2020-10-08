@@ -8,7 +8,8 @@ Fique a vontade para utilizar o código :)
 
 
 ## Desktop
-![Desktop Dark Mode](../master/project-images/Desktop-Dark-Mode.PNG | width=250)
+<img src="../master/project-images/Desktop-Dark-Mode.PNG" alt="Desktop Dark Mode" width="250">
+![Desktop Dark Mode]( | width=250)
 
 
 <div align="center">
